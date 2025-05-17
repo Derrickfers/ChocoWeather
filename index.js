@@ -193,7 +193,7 @@ window.addEventListener('resize', () => {
 const API_KEY = `44e48d20c907432caf7124947251505`;
 
 const fetchWeatherData2 = async() => {
-const apiUrl2 = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=2`;
+const apiUrl2 = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=2`;
 
 try {
     const resi = await fetch(apiUrl2);
