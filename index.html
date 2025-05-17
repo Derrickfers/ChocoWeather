@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChocoWeather</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <div class="bow-hangBack"><img src="cho7.png" class="bow-img" alt="bow image" /></div>
+  
+  <section class="choco-wrapper">
+
+    <header class="choco-header">
+      <h1>🍫 ChocoWeather</h1>
+      <!-- tabindex="0" -->
+      <form class="search-box" >
+        <input type="text" class="inputValue" placeholder="Enter your city..." />
+        <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </header>
+
+    <main class="weather-main">
+      <h1 class="weather-place">Aldonaaa, Goa</h1>
+      <p class="weather-date-time">Friday, Feb 23 2024 at 10.37 AM</p>
+      <div class="weather-icon-sunny"><img src="sun_rain_snow.webp" alt=""></div>
+      <h2 class="temperature">27°C</h2>
+      <div class="weather-minmax">
+        <p class="weather-min">min. 277°</p>
+        <p class="weather-max">max. 279°</p>
+      </div>
+      <p class="description">Rain<!-- Sweet sunshine today! --></p>
+    </main>
+
+ <!-- weather-info start -->
+ <section class="weather-info">
+      <div class="weather-card">
+        <i class="fa-solid fa-droplet"></i>
+        <div class="weather-innerDetails">
+          <p>Feels Like:</p>
+          <p class="weather-feelsLike">15&#176</p>
+        </div>
+      </div>
+
+      <div class="weather-card">
+        <i class="fa-solid fa-droplet"></i>
+        <div class="weather-innerDetails">
+            <p>Humidity:</p>
+            <p class="weather-humidity">15&#176</p>
+        </div>
+      </div>
+
+      <div class="weather-card">
+        <i class="fa-solid fa-wind"></i>
+        <div class="weather-innerDetails">
+          <p>Wind:</p>
+          <p class="weather-wind">15&#176</p>
+        </div>
+      </div>
+  
+      <div class="weather-card">
+        <i class="fa-solid fa-gauge-high"></i>
+        <div class="weather-innerDetails">
+          <p>Pressure:</p>
+          <p class="weather-pressure">15&#176</p>
+        </div>
+      </div> 
+ </section>
+ <!-- weather-info end -->
+
+<!-- section-forecast everyday start -->
+<section class="tfhrs-forecast">
+  <p class="arrow-btn left-arrow">&lt;</p> 
+
+    <div class="section-forecast"> 
+        <ul class="forecast">   
+          <!-- <li class="day"><span class="time-date">2025-05-16 00:00</span><br><span><img src="176.png"/><br>27</span></li>  -->
+
+        </ul>   
+    </div>
+
+    <p class="arrow-btn right-arrow">&gt;</p>
+  </section>
+ <!-- section-forecast everyday end -->
+ 
+  </section>
+  
+  <script src="index.js"></script>
+</body>
+</html>
